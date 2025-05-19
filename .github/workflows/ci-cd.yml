@@ -53,7 +53,7 @@ jobs:
 
       - name: Terraform plan
         working-directory: .
-        run: terraform plan -lock=false
+        run: terraform plan -lock=false -input=false -no-color
 
   approve:
     name: 🔒 Await Approval
