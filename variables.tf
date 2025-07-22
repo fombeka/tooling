@@ -1,7 +1,7 @@
 variable "ami_id" {
   description = "The AMI ID for the instances"
   type        = string
-  default     = "ami-0b8c6b923777519db"
+  default     = "ami-0d02b3ab32d4639a3"
 }
 
 variable "instance_type" {
@@ -93,5 +93,5 @@ variable "dynamodb_table" {
 variable "main-region" {
   description = "The AWS region to deploy resources"
   type        = string
-  default     = "us-west-2"
+  default     = "us-east-2"
 }
